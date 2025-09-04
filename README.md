@@ -127,6 +127,6 @@ Created with ❤️ by Joseph K. Osei Bonsu (a.k.a OligoCodes)
 
 <p align="center">
   <a href="https://github.com/OligoCodes/OPHANOX">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=1000&color=F7B93E&center=true&vCenter=true&width=600&lines=🥹+Please+star+this+repo+🌟" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=37&pause=1000&color=F7B93E&center=true&vCenter=true&width=600&lines=🥹+Please+star+this+repo+🌟" alt="Typing SVG" />
   </a>
 </p>
