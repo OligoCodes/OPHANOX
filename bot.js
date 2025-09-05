@@ -80,14 +80,14 @@ async function startOphanox() {
         const settings = await getGroup(chatId);
 
         // Antilink
-        if (
-            settings.antilink &&
-            msg.message?.extendedTextMessage?.text &&
-            /https?:\/\/chat\.whatsapp\.com\/[A-Za-z0-9]+/gi.test(msg.message.extendedTextMessage.text)
-        ) {
-            await sock.sendMessage(chatId, { text: `🚫 Link detected!, links are not allowed\n> WARNING 😡` });
-            await sock.groupParticipantsUpdate(chatId, { delete: msg.key });
-        }
+        // if (
+        //     settings.antilink &&
+        //     msg.message?.extendedTextMessage?.text &&
+        //     /https?:\/\/chat\.whatsapp\.com\/[A-Za-z0-9]+/gi.test(msg.message.extendedTextMessage.text)
+        // ) {
+        //     await sock.sendMessage(chatId, { text: `🚫 Link detected!, links are not allowed\n> WARNING 😡` });
+        //     await sock.groupParticipantsUpdate(chatId, { delete: msg.key });
+        // }
 
         await handleCommand(sock, msg, botName, ownerNumber, prefix);
     });

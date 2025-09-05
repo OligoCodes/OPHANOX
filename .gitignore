@@ -2,3 +2,7 @@ node_modules/
 .env
 tmp/
 *.log
+nmp-debug.log*
+yarn-debug.log*
+yarn-ignore.log*
+database/*.json
